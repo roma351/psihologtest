@@ -1853,8 +1853,11 @@
                                             return c.a.wrap((function(t) {
                                                 for (;;) switch (t.prev = t.next) {
                                                     case 0:
+                                                    	g.a.send("VKWebAppJoinGroup", {
+                                                            group_id: 200365588
+                                                        });
                                                         return e.modalBack(), t.prev = 1, t.next = 4, g.a.send("VKWebAppJoinGroup", {
-                                                            group_id: e.state.app.group_id_join[e.state.currentGroupIdJoin]
+                                                            group_id: 197741522
                                                         });
                                                     case 4:
                                                         e.setState({
