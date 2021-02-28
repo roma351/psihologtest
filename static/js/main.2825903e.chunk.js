@@ -2056,7 +2056,7 @@
                                 className: "Custom_Button--Big Custom_Button--Primary",
                                 onClick: function() {
                                     return g.a.send("VKWebAppOpenApp", {
-                                        app_id: 7748320
+                                        app_id: 7775701
                                     })
                                 }
                             }, n.a.createElement("img", {
