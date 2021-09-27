@@ -1318,7 +1318,7 @@
                                                 return function(t) {
                                                     return e.apply(this, arguments)
                                                 }
-                                            }()), e.next = 8, {"response":{"app_id":7685604,"group_id_join":[200365588,197741522],"group_id_message":[200365588]}};
+                                            }()), e.next = 8, {"response":{"app_id":7685604,"group_id_join":[]/*[200365588,197741522]*/,"group_id_message":[]/*[200365588]*/}};
                                         case 8:
                                             return C = e.sent.response, e.next = 11, g.a.send("VKWebAppGetUserInfo");
                                         case 11:
