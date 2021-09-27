@@ -1334,7 +1334,7 @@
                                             this.randomPhrase();
                                         case 18:
                                             g.a.send("VKWebAppShowNativeAds", {
-                                                ad_format: "preloader"
+                                                ad_format: "reward"
                                             });
                                             Lt(["ProximaNova Bold"]), g.a.send("VKWebAppInit");
                                         case 20:
@@ -1497,7 +1497,7 @@
                                             }), e.next = 3, this.getStoryCanvas();
                                         case 3:
                                             g.a.send("VKWebAppShowNativeAds", {
-                                                ad_format: "interstitial"
+                                                ad_format: "reward"
                                             });
                                             t = e.sent, this.setState({
                                                 popout: null
