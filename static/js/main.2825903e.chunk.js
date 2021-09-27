@@ -1862,9 +1862,9 @@
                                                     	/*g.a.send("VKWebAppJoinGroup", {
                                                             group_id: 200365588
                                                         });*/
-                                                        return e.modalBack(), t.prev = 1, t.next = 4/*, g.a.send("VKWebAppJoinGroup", {
-                                                            group_id: 197741522
-                                                        })*/;
+                                                        return e.modalBack(), t.prev = 1, t.next = 4, g.a.send("VKWebAppShowNativeAds", {
+                                                            ad_format: "reward"
+                                                        });
                                                     case 4:
                                                         e.setState({
                                                             currentGroupIdJoin: e.state.currentGroupIdJoin + 1
